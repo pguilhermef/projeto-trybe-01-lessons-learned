@@ -2,9 +2,9 @@ body{
   background-color: rgb(253, 251, 251);
 }
 
-#indice{
+/* #indice{
 float: right;
-}
+} */
 
 #cabecalho{
   position: fixed;
