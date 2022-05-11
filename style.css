@@ -2,19 +2,28 @@ body{
   background-color: rgb(253, 251, 251);
 }
 
-/* #indice{
-float: right;
-} */
+#indice{
+margin-top: 6%;
+border: 1px solid #ffffff;
+}
 
 #cabecalho{
   position: fixed;
   top: 0;
   margin: 10px ;
-  padding: 5px;
-  border: 1px solid #ffffff;
+  padding: 1px;
+  border: 1px solid #000000;
+  color: #ffffff;
+  background-color: #000000;
 }
 
+#minha_foto{
+  width: 10%;
+}
 
+#artigoAprendizado{
+  width: 500px;
+}
 
 ul li{
 color: blue;
@@ -26,9 +35,16 @@ line-height: 15px;
 }
 
 .lado-esquerdo{
-float: left;
+  width: 20%;
+  height: 100%;
+  left: 10px;
+  top: 50%;
 }
 
 .lado-direito{
-float: right;
+  width: 20%;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
 }
