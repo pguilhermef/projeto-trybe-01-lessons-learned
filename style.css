@@ -9,3 +9,11 @@ body{
   padding: 5px;
   border: 1px solid #ffffff;
 }
+
+ul li{
+color: blue;
+font-size: 15px;
+font-family: monospace;
+font-style: italic;
+word-spacing: 1px;
+}
