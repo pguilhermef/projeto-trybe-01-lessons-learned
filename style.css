@@ -10,10 +10,20 @@ body{
   border: 1px solid #ffffff;
 }
 
+
+
 ul li{
 color: blue;
 font-size: 15px;
 font-family: monospace;
 font-style: italic;
 word-spacing: 1px;
+}
+
+.lado-esquerdo{
+float: left;
+}
+
+.lado-direito{
+float: right;
 }
