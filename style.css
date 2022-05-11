@@ -5,8 +5,7 @@ body{
 #cabecalho{
   position: fixed;
   top: 0;
-}
-
-#licoes ul{
-  display: inline-block;
+  margin: 10px ;
+  padding: 5px;
+  border: 1px solid #ffffff;
 }
