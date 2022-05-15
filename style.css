@@ -1,5 +1,6 @@
 body{
   background-color: rgb(253, 251, 251);
+  text-decoration: none;
 }
 
 
@@ -7,6 +8,11 @@ body{
   display: inline-block;
   width: 20%;
   color: #ffffff;
+}
+
+#indice li a{
+  color: #ffffff;
+  text-decoration: none;
 }
 
 #cabecalho{
@@ -21,6 +27,7 @@ body{
 }
 
 #minha_foto{
+  display: inline-block;
   width: 30%;
   margin-top: 150px;
   border-radius: 100%;
@@ -30,20 +37,19 @@ body{
   width: 500px;
 }
 
-ul li{
+/* ul li{
 color: blue;
 font-size: 15px;
 font-family: monospace;
 font-style: italic;
 word-spacing: 1px;
 line-height: 15px;
-}
+} */
 
 .lado-esquerdo{
+  display: inline-block;
   width: 20%;
   height: 100%;
-  left: 10px;
-  top: 50%;
 }
 
 .lado-direito{
@@ -51,5 +57,5 @@ line-height: 15px;
   height: 100%;
   position: fixed;
   right: 0;
-  top: 0;
+  top: 150px;
 }
