@@ -28,23 +28,32 @@ body{
 
 #minha_foto{
   display: inline-block;
-  width: 30%;
+  width: 20%;
   margin-top: 150px;
   border-radius: 100%;
+}
+
+/* #SobreMim{
+
+} */
+
+#MeuNome{
+  display: inline-block;
+  font-size: 1em;
 }
 
 #artigoAprendizado{
   width: 500px;
 }
 
-/* ul li{
+ul li{
 color: blue;
 font-size: 15px;
 font-family: monospace;
 font-style: italic;
 word-spacing: 1px;
 line-height: 15px;
-} */
+}
 
 .lado-esquerdo{
   display: inline-block;
