@@ -3,9 +3,10 @@ body{
 }
 
 
-#indice{
-margin-top: 6%;
-border: 1px solid #ffffff;
+#indice li{
+  display: inline-block;
+  width: 20%;
+  color: #ffffff;
 }
 
 #cabecalho{
@@ -13,13 +14,16 @@ border: 1px solid #ffffff;
   width: 100%;
   top: 0;
   left: 0;
+  text-align: center;
   color: #ffffff;
   border: 1px solid #000000;
   background-color: #000000;
 }
 
 #minha_foto{
-  width: 10%;
+  width: 30%;
+  margin-top: 150px;
+  border-radius: 100%;
 }
 
 #artigoAprendizado{
